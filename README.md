@@ -58,7 +58,7 @@ mcase_frequency = {
     for k in mcase.keys()
 }
 
-# mcase_frequency == {'a': 17, 'z': 3, 'b': 34}
+mcase_frequency == {'a': 17, 'z': 3, 'b': 34}
 
 You can also quickly switch keys and values of a dictionary:
 
@@ -77,7 +77,8 @@ Generator Comprehension
 multiples_gen = (i for i in range(30) if i % 3 == 0)
 print(multiples_gen)
 
-# Output: <generator object <genexpr> at 0x7fdaa8e407d8>
+Output: <generator object <genexpr> at 0x7fdaaad07d8>
+    
 for x in multiples_gen:
   print(x)
   # Outputs numbers
